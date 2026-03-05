@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini 3D FPS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div>Health: <span id="health">100</span></div>
+      <div>Score: <span id="score">0</span></div>
+      <div>Ammo: <span id="ammo">30</span></div>
+      <div id="hint">Click to lock mouse. WASD to move, mouse to aim, click to shoot, R to reload.</div>
+    </div>
+    <div id="crosshair"></div>
+    <div id="overlay">
+      <h1>Mini 3D Shooter</h1>
+      <p>Survive and eliminate enemies.</p>
+      <button id="startBtn">Start Game</button>
+    </div>
+
+    <script type="module" src="game.js"></script>
+  </body>
+</html>
